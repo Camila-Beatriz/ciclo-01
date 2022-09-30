@@ -1,0 +1,63 @@
+body {
+    height: 800px;
+    
+}
+#principal {
+    height: 500px; 
+    width: 700px ;
+    border: 3px solid blue; 
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.filiais {
+    height: 200px; 
+    width: 300px ;
+    border: 3px solid blue;
+    padding: 10px; 
+    position: relative;
+}
+.quadrado {
+    height: 70px;
+    width: 70px;
+    border: 1px solid rgb(9, 40, 75);
+    margin: 5px;
+}
+#box1 {
+    background-color:rgb(107, 151, 235);
+    position:static;
+}
+#box2{
+    background-color: chocolate;
+    position:static;
+}
+#box3 {
+    background-color:chocolate;
+}
+#box4{
+    background-color:rgb(71, 202, 71) ;
+    position: relative;
+    left: 90px;
+    top: 50px;
+}
+#box5 {
+    background-color: chocolate;
+    position:absolute;
+    top: 90px;
+    left: 10px;
+}
+#box6{
+    background-color: rgb(71, 202, 71);
+    position:absolute;
+    top: 130px;
+    left: 50px;
+}
+#box7 {
+    background-color:rgb(71, 202, 71);
+    position: fixed;
+    left: 450px;
+    top: 350px;
+}

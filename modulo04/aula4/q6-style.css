@@ -1,0 +1,55 @@
+#Principal {
+    width: 800px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+   
+
+}
+
+.box {
+    width: 170px;
+    height: 150px;
+    text-align: center;
+    background-color: rgb(150, 150, 250);
+    border: solid 1px black;
+
+}
+
+#box1 {
+    background-color: rgb(87, 226, 87);
+    overflow: scroll;
+}
+
+#box2 {
+    background-color: rgb(165, 138, 103);
+    overflow: hidden;
+}
+
+#box3 {
+    background-color: rgb(107, 127, 238);
+    overflow: auto;
+}
+
+#box4 {
+    background-color: rgb(87, 226, 87);
+    overflow: visible;
+}
+
+#lista {
+    display: flex;
+    width: 680px;
+    background-color: rgb(89, 112, 185);
+    padding: 10px 60px 10px 60px;
+    list-style-type: none;
+    font-size: 20px;
+
+}
+
+li {
+    margin: 10px;
+    background-color: rgb(121, 118, 120);
+    padding: 5px 10px 5px 10px;
+
+}
