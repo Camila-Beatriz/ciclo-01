@@ -1,0 +1,145 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial,  sans-serif;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(./background2-scs.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.logo{
+    
+    align-items: center;
+
+}
+
+nav{ 
+    background-color: rgb(117, 140, 241);
+    text-align: center;
+    
+}
+
+nav .menu{
+    display: inline-flex;
+    
+}
+
+
+
+nav .menu li {
+    width: 190px;
+    margin: 15px;
+    padding: 15px;
+}
+
+nav .menu li a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+  
+}
+
+
+.sub-menu1{
+    display: none;
+}
+
+nav .menu li:hover .sub-menu1{
+    
+    display: block;
+    position: absolute;
+    background-color: rgb(117, 140, 241);
+    margin-top: 15px;
+    margin-left: -38px;
+}
+nav .menu li:hover .sub-menu1 ul{
+    display: block;
+}
+nav .menu li:hover .sub-menu1 ul li{
+  
+    text-align: center;
+    border-radius: 10px;
+    transition: 04s;
+}
+nav .menu li:hover .sub-menu1 ul li:hover{
+    background-color: rgb(38, 40, 78);
+
+}
+
+h2{
+    
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    background-color: rgb(117, 140, 241);
+
+
+}
+
+p{
+    color: rgb(38, 40, 78);
+
+    font-size: 15px;
+    text-align: center;
+    background-color: rgb(117, 140, 241); 
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.selecao{
+    color: rgb(38, 40, 78);
+    font-weight: 700;
+    font-size: 15px;
+    background-color: transparent;
+}
+
+.formulário{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 250px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    flex-direction: column;
+    width: 500px;
+    color: rgb(38, 40, 78);
+
+    
+}
+
+img{
+    position:static;
+}
+
+.textosimples{
+    color: rgb(38, 40, 78);
+    font-size: 15px;
+    text-align: center;
+}
+
+label{
+    text-align: center;
+    color: rgb(38, 40, 78);
+    font-weight: bolder;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    width: 100px;
+    height: 20px;
+    border: solid blue;
+
+}
