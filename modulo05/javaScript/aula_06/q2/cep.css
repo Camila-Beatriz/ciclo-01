@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    background-color: #628d9b;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+label{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.formulário {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70vh;
+    height: 30vh;
+    text-align: center;
+    background-color: #e5d7eb;
+    padding: 2vh;
+    border-radius: 5%;
+
+
+}
+
+
+input {
+    display: flex;
+    margin: 1vh;
+    border-radius: 10px;
+
+}
+
+#button {
+
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: #64afed;
+    border: solid #64afed;
+    ;
+
+}
+
+#button:hover {
+    transition: 0.5 s;
+    background-color: #5416ff;
+    border: solid #5416ff;
+    color: #f0f8ff;
+    padding: 2vhS;
+}
+
+
+
+
