@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: rgb(228, 207, 248);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: black;
+    text-align: center;
+    padding-bottom: 15px;
+    
+}
+
+form{
+    padding-top: 20px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.button{
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    width: 70px;
+    border: solid red;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
