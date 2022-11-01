@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 07 - JS - Formulário</title>
+    <link rel="stylesheet" href="./user.css">
+</head>
+
+<body>
+
+
+    <main>
+
+        <p> Por favor, preencha as informações abaixo: </p>
+
+       
+        <div id="formulário">
+
+            <h2> Formulário </h2>
+
+            <div>
+                <label> Nome <br> </label>
+                <input type="text" id="name"> 
+            </div>
+            <p> Data de nascimento </p>
+            <div id="birthDate1">
+                <label> <br> </label>
+                <input type="date" id="birthDate" placeholder="Data nasc."> 
+                <!-- <label>  <br> </label>
+                <input type="text" id="mes" placeholder="Mês"> 
+                <label>  <br> </label>
+                <input type="text" id="ano" placeholder="Ano">  -->
+            </div>
+            <div>
+                <label> Peso (kg) <br> </label>
+                <input type="text" id="weight"> 
+            </div>
+            <div>
+                <label> Altura (cm)<br> </label>
+                <input type="text" id="height"> </input>
+            </div>
+            <p id="selecao"> Selecione o gênero:</p>
+
+            <div id="gener">
+                
+                <select id="gender" name="Gênero" >
+
+                    <option  disabled="\" selected="\" >Selecione </option>
+                    <option value="Feminino">Feminino</option>
+                    <option value="Masculino">Masculino</option>
+                    <option value="Outro">Outro</option>
+                </select>
+            </div>
+            <br>
+
+            <div>
+                <button id="button" type="button"> <strong> Enviar </strong> </button>
+            </div>
+        </div>
+        <p id="result"></p>
+
+    </main>
+    <p> Suas informações são importantes para nós! </p>
+
+    <script src="./user.js"></script>
+</body>
+
+</html>

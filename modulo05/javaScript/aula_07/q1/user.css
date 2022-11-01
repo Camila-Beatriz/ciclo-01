@@ -1,0 +1,96 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+body{
+    background-color: #628d9b;;
+}
+
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    src: url(./Poppins.zip);
+}
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+p{
+    text-align: center;
+    padding: 2vh;
+    background-color: transparent;
+}
+
+h1{
+    padding: 5vh;
+}
+
+#formulário{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: solid;
+    width: 300px;
+    height: 350px;
+    background-color: #e5d7eb;
+}
+
+
+
+label{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   
+}
+
+#dtnasc{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  
+}
+
+#dia{
+    width:15vh;
+    text-align: center;
+}
+
+#mes{
+    width:15vh;
+    text-align: center;
+}
+
+#ano{
+    width:15vh;
+    text-align: center;
+}
+
+#gener{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 7px;
+    
+ }
+
+ input{
+    border-radius: 7px;
+   
+ }
+
+ select{
+    border-radius: 7px;
+ }
+
+ button{
+    border-radius: 7px;
+ }
